@@ -1,0 +1,29 @@
+<html>
+
+<body>
+
+    <link rel="stylesheet" type="text/css" media="all" href="shstyles.css" />
+    <script src="shcommon.js" type="text/javascript"></script>
+
+    <div id="colordisplay"></div>
+    <div id="colorcontrols">
+        <p class="colorcontrollabel">R</p>
+        <input id="redslider" class="slider" type="range" min="0" max="255" value="255"
+            onchange="slideRed(this.value)" />
+        <p id="redvaluelabel" class="colorvaluelabel">255</p>
+        <br>
+        <p class="colorcontrollabel">G</p>
+        <input id="greenslider" class="slider" type="range" min="0" max="255" value="90"
+            onchange="slideGreen(this.value)" />
+        <p id="greenvaluelabel" class="colorvaluelabel">90</p>
+        <br>
+        <p class="colorcontrollabel">B</p>
+        <input id="blueslider" class="slider" type="range" min="0" max="255" value="90"
+            onchange="slideBlue(this.value)" />
+        <p id="bluevaluelabel" class="colorvaluelabel">90</p>
+    </div>
+    <input type="button" value="update" onClick="setSenseHatColorDisplay()">
+    <p id="outputarea">output area</p>
+</body>
+
+</html>

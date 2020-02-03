@@ -1,0 +1,32 @@
+html, body{  
+    min-height: 100%;  
+    height: 100%;  
+    max-width: 100%;  
+    }  
+      
+    #colordisplay{  
+        float: left;  
+        width: 120px;  
+        height: 120px;  
+        border: 1px solid black;  
+        background-color: rgb(255,90,90);  
+    }  
+      
+    .colorslider{  
+        display: inline;  
+        width: 100px;  
+    }  
+      
+    .colorcontrollabel{  
+        display: inline;  
+    }  
+      
+    .colorvaluelabel{  
+        display: inline;  
+    }  
+      
+    #colorcontrols{  
+        float: left;  
+        border: 1px solid black;  
+        width: 200px;  
+    }  
